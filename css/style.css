@@ -1,0 +1,228 @@
+body{
+	color:#fff;
+	font-family: 'Patua One', cursive;
+	/*font-family: 'B612', sans-serif;*/
+	
+}
+/*-------- MENU -------------*/
+.menu-1{
+	height: 60px;
+	background:white;
+}
+
+.botonmenu{
+	color:#ea5c5a;
+	font-weight: bolder;
+	background-color: white;
+}
+
+.slider-1, .slider-2, .slider-4{
+	height: 100vh;
+	text-align: center;
+}
+
+.slider-3{
+	height: 180vh;
+	text-align: center;
+}
+
+
+/*--------- ACERCA DE MI ---------*/
+
+#sec-1{
+	background-image: url("fondo.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	
+}
+
+.slider-1 img{
+	display:block;
+	margin:auto;
+	width:10em;
+	
+}
+
+.slider-1 h1{
+	color:#ea5c5a;
+	font-weight: bolder;
+	text-shadow: rgba(233, 231, 88, 0.746) 0.1em 0.01em 0.01em;
+}
+
+.slider-1 .card2{
+	color: black;
+	background-image: url("fondoproy.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	
+	text-align: left;
+	margin:auto;
+	width:12em;
+	padding: 20px;
+	-webkit-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	border-radius: 5px;
+	border: white;
+}
+
+.slider-1 h3{
+	color: black;
+	
+}
+
+/*------aptitudes-----------*/
+
+
+.slider-2{
+	background-image: url("fondogr.png");
+	/*background-color:#a0d0f8;*/
+	background-size:cover;
+}
+
+.slider-2 h1{
+	color:#ea5c5a;
+	font-weight: bolder;
+	margin-top: 90px ;
+	margin-bottom: 0px;
+	text-shadow: rgba(233, 231, 88, 0.746) 0.1em 0.01em 0.01em;
+	
+}
+
+
+.slider-2 .card2{
+	color: black;
+	background-image: url("fondo card.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	
+	text-align: center;
+	margin: auto;
+	width:12em;
+	padding: 0px;
+	-webkit-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	
+	
+}
+
+/*-------- proyectos--------*/
+
+
+
+.slider-3{
+	background-image: url("fondogr.png");
+}
+
+.slider-3 h1{
+	color:#ea5c5a;
+	font-size: 3em;
+	font-weight: bolder;
+	margin-top: 5px ;
+	margin-bottom: 25px;
+	text-shadow: rgba(233, 231, 88, 0.746) 0.1em 0.01em 0.01em;
+	
+}
+
+
+.slider-3 img{
+	border-radius: 10px;
+	
+}
+
+
+.slider-3 .card2{
+	color: #000103;
+	
+	text-align: left;
+	-webkit-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	background-image: url("fondoproy.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+
+}
+
+.slider-3  .cardt{
+	color: black;
+	
+	text-align: left;
+		
+}
+
+.slider-3 .cardt2{
+	-webkit-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	background-color:rgba(255, 255, 255, 0.561);
+}
+
+.slider-3 img{
+	filter: saturate(0.8);
+}
+
+
+
+
+
+/*-------contacto-------------*/
+
+
+.slider-4{
+	background:white;
+}
+.slider-4 h1{
+	color: rgb(111, 200, 230);
+	font-weight: bolder;
+	margin-top: 5px ;
+	margin-bottom: 25px;
+	text-shadow: rgba(233, 231, 88, 0.746) 0.1em 0.01em 0.01em;
+}
+
+.slider-4 .fa-whatsapp{
+	color: rgb(47, 240, 143);
+	text-align: center;
+	font-size: 80px;
+}
+
+.slider-4 .fa-envelope{
+	color: rgb(70, 66, 66);
+	text-align: center;
+	font-size: 80px;
+}
+
+
+
+
+
+.footer{
+	background: #444;
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+}
+
+
+/*-------------*/
+@media screen and (max-width: 800px){
+
+	.slider-1, .slider-2{
+		height: 200vh;
+		text-align: center;
+	}
+
+	.slider-3{
+		height: 400vh;
+		text-align: center;
+	}
+
+	.slider-4{
+		height: 100vh;
+		text-align: center;
+	}
+}
