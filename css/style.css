@@ -10,6 +10,7 @@ body{
 	background:white;
 }
 
+
 .botonmenu{
 	color:#ea5c5a;
 	font-weight: bolder;
@@ -55,10 +56,10 @@ body{
 	background-size:cover;
 	background-repeat: no-repeat;
 	border-radius: 10px;
-	
 	text-align: left;
 	margin:auto;
 	width:12em;
+	height: 14em;
 	padding: 20px;
 	-webkit-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
@@ -69,7 +70,6 @@ body{
 
 .slider-1 h3{
 	color: black;
-	
 }
 
 /*------aptitudes-----------*/
@@ -136,7 +136,6 @@ body{
 
 .slider-3 .card2{
 	color: #000103;
-	
 	text-align: left;
 	-webkit-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
@@ -145,6 +144,7 @@ body{
 	background-size:cover;
 	background-repeat: no-repeat;
 	border-radius: 5px;
+	height: 20.5em;
 
 }
 
@@ -166,7 +166,9 @@ body{
 	filter: saturate(0.8);
 }
 
-
+.slider-3 a {
+	color: #ea5c5a ;
+}
 
 
 
@@ -177,10 +179,8 @@ body{
 	background:white;
 }
 .slider-4 h1{
-	color: rgb(111, 200, 230);
+	color:#ea5c5a;
 	font-weight: bolder;
-	margin-top: 5px ;
-	margin-bottom: 25px;
 	text-shadow: rgba(233, 231, 88, 0.746) 0.1em 0.01em 0.01em;
 }
 
@@ -210,19 +210,112 @@ body{
 
 /*-------------*/
 @media screen and (max-width: 800px){
+	html, body{
+		overflow-x: hidden;
+	 }
+	/*----tamaño----*/
 
-	.slider-1, .slider-2{
-		height: 200vh;
+	.slider-1{
+		height: 175vh;
+		text-align: center;
+	}
+
+	.slider-2{
+		height: 199vh;
 		text-align: center;
 	}
 
 	.slider-3{
-		height: 400vh;
+		height: 670vh;
 		text-align: center;
 	}
 
 	.slider-4{
-		height: 100vh;
+		height: 120vh;
 		text-align: center;
 	}
+
+/*------menu-----*/
+	.menur{
+		padding-right: 5px;
+		
+		-webkit-justify-content: space-around;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
+		
+		
+	}
+	
+	.botonmenu{
+		font-size: 12px;
+		padding: 1px;
+		
+	}
+
+	/*-------acerca de mi------*/
+	.slider-1 .card2{
+	color: black;
+	background-image: url("fondoproy.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding-left: 5vh;
+	
+	
+	
+	}
+
+	#acerca{
+		height: 37vh;
+	}
+
+	#info{
+		height: 43vh;
+	}
+	
+
+
+	.slider-2 .card2{
+		padding:5vh;
+	}
+
+
+	/*-----proyectos--------*/
+	
+	.slider-3 .card2{
+		margin-right: 0px;
+		margin-left: 0px;
+		margin-top: 15px;
+		background-image: url("fondoproyr.png");
+		background-size:cover;
+		background-repeat: repeat;
+		
+
+	}
+
+	#cine{
+		height: 115vh;
+	}
+	#anahata{
+		height: 90vh;
+		
+	}
+	#latido{
+		height: 85vh;
+	}
+	#fuga{
+		height: 110vh;
+	}
+
+	.slider-3 .card{
+		margin-right: 20px;
+		margin-left: 20px;
+		width: 42vh;
+		
+	}
+
+	.slider-3 .card img{
+		padding:10px;
+		border-radius: 20px;
+	}
+	
 }

@@ -35,13 +35,15 @@
       callback: function ( anchor, toggle ) {} // Function to run after scrolling
       });
     </script>
+
+    
     
   </head>
   <body>
 
     <!-- MENÚ -->
-    <div class="container-fluid navbar-fixed-top">
-      <div class="row flex-items-xs-between menu-1 flex-items-xs-middle">
+    <div class="container-fluid   navbar-fixed-top">
+      <div class="row  menur flex-items-xs-between menu-1 flex-items-xs-middle">
         <div class="col-xs-2">
           <a data-scroll href="#sec-1" class="btn botonmenu" role="button" aria-pressed="true">Acerca de mi</a>
         </div>
@@ -67,7 +69,7 @@
           <div class="col-xs-12 mb-3"><h3>Diseño + tecnología</h3></div>
                    
          
-          <div class="card2  col-xs-12 col-lg-5">
+          <div class="card2 mr-2 ml-5  col-xs-12 col-lg-5" id="acerca">
            
             <div class="card-body m-1">
               
@@ -75,24 +77,20 @@
                 Acerca de mi
               </div>
               <P>
-                dfsfdsf
-                <br>
-                fsdfsdf
-                <br>
-                sffsf
-                <br>
-                fsfsdf
-                <br>
-                sfsdgdf
-                
+                <P>
+                  Estoy feliz por haber nacido en la epoca de las computadoras. 
+                  <br>
+                 Me parece increible todo lo que se puede lograr con programación y diseño. 
+               
                </p>
-         
+          
 
-
+              
+              
             </div>
 
           </div>
-          <div class="card2  col-xs-12 col-lg-5">
+          <div class="card2 mr-2 ml-5 col-xs-12 col-lg-5" id="info">
                   
             <div class="card-body m-1">
               
@@ -192,9 +190,9 @@
 
           </div>
 
-          
-            <div class="col-xs-12 col-lg-12  mb-3 flex-items-xs-center"><h1>Educación</h1></div>
-            <div class="card2  col-xs-12 col-lg-5">
+           
+            <div class="col-xs-12  col-lg-12  mb-3 "><h1>Educación</h1></div>
+            <div class="card2   col-xs-12 col-lg-5">
 
               <div class="card-body m-1">
               
@@ -224,12 +222,16 @@
                   IT
   
                 </h3>
+                <div lass="h2  ">
+                  2020
+                </div>
                 <P>
                   Udemy: Javascript, html, css.
-                  Civet:
                   <br>
-                  fsdfsdf <br>
-                  fds
+                  Civet: Diseño e integración web html5 + css.
+                  
+                  <br>
+                  Bluuweb: Curso de Vue JS
 
                 </p>
            
@@ -254,9 +256,9 @@
           
           <div class=" col-xs-12 col-lg-6">
 
-            <div class=" card2 ml-3 " >
+            <div class=" card2 ml-3" id="cine" >
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-10">
                   <img src="img/cine.png" class="m-2 img-fluid">
                 </div>
                 <div class="col-md-8">
@@ -280,16 +282,16 @@
 
           <div class=" col-xs-12 col-lg-6">
 
-            <div class=" card2 mr-3 " >
+            <div class=" card2 mr-3 " id="anahata">
               <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img/anaha.png" class="m-2 img-fluid">
+                <div class="col-md-4 col-xs-10">
+                  <img src="img/anaha2.png" class="m-2 img-fluid">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 ">
                   <div class="card-body">
                     <h3 class="card-title m-2">Anahata - Videoclip</h3>
                     <p class="card-text m-2">Es un videoclip que realice con Zafari Producciones.
-                      Ganador de Student Video en Buenos Aires Music Video Festival 2020.   <a  href="https://www.youtube.com/watch?v=tjd1J-Tmrx8" aria-pressed="true">Miralo</a>
+                      Ganador de Student Video en Buenos Aires Music Video Festival 2020. <br>  <a  href="https://www.youtube.com/watch?v=tjd1J-Tmrx8" aria-pressed="true">Miralo</a>
                 </p>
                     
                   </div>
@@ -302,9 +304,33 @@
 
           <div class=" col-xs-12 col-lg-6">
 
-            <div class=" card2 mt-1 ml-3 " >
+            <div class="card2 mt-1 ml-3" id="latido" >
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-10">
+                  <img src="img/chile.png" class="m-2 img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title m-2">Latido - Videoclip</h3>
+                    <p class="card-text m-2">Es un videoclip que realice con Take Audiovisuales.
+                      Experimentamos en montaje con efectos glichts en Premiere y en After <br> <a  href="https://www.youtube.com/watch?v=M3zurtBia3k" aria-pressed="true">Miralo</a>
+                </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          
+          <div class=" col-xs-12 col-lg-6">
+
+            <div class=" card2 mt-1 mr-3" id="fuga" >
+              <div class="row g-0">
+                <div class="col-md-4 col-xs-10">
                   <img src="img/fuga.png" class="m-2 img-fluid">
                 </div>
                 <div class="col-md-8">
@@ -317,9 +343,11 @@
                       <br>
                      Photoshop
                      <i class="fas fa-paint-brush"></i> <br>
-                     <a  href="https://colixx.github.io/cine/in" aria-pressed="true">Jugá</a>
+                     <a  href="https://colixx.github.io/fuga/" aria-pressed="true">Jugá</a>
               
                     </p>
+
+        
                     
               
                
@@ -333,101 +361,29 @@
 
         
             
-          <!--div class="col-lg-3 mb-3">
-            
-            <img src="img/cine.png" class="card-img-top img-fluid" alt="..."></div>
-           
-          <div class="card card2 m-5 h-100 col-xs-12 col-lg-8">
-            
-            <div class="card-body m-1">
-              <h3 class="">Cine.red</h3>
-              <p class="card-text">Es una plataforma para difundir cine realizado por estudiantes audiovisuales de todo el país. Un puente entre estas obras con les espectadores y con la industria. Aún se encuentra en busqueda de fondos para finalizarla. Cuenta con un index, diferentes secciones y una pagina con el reproductor e información de cada pelicula.
-              <br> Esta construida con: <br>
-              Css <i class="fab fa-css3-alt"></i> <br>
-              Boostrap <i class="fab fa-bootstrap"></i> <br>
-              Javascript
-              <i class="fab fa-js-square"></i>
-        
-              </p>
-              <a  href="https://colixx.github.io/cine/index.html"  aria-pressed="true">Visitala</a>
-              
-              
-
-
-            </div>
-
-          </div>
-          <div class="col-lg-3 mb-3"><img src="img/anaha.png" class="card-img-top img-fluid" alt="..."></div>
-
-
-          <<div class="card card2 m-5 h-100 col-xs-12 col-lg-8">
-            
-            <div class="card-body m-1">
-              <h3 class="card-title">Anahata - trlc</h3>
-              <p class="card-text">Es un videoclip que realice con Zafari Producciones.
-                Ganador de Student Video en Buenos Aires Music Video Festival 2020
-        
-              </p>
-              <a  href="https://www.youtube.com/watch?v=tjd1J-Tmrx8" aria-pressed="true">Miralo</a>
-              
-              
-
-
-            </div>
-
-          </div>          
-          
-          
-
-          
-            <div class="col-lg-3"><img src="img/fuga.png" class="card-img-top img-fluid" alt="..."></div>
-            <div class="card card2 m-5 h-100 col-xs-12 col-lg-8">
-            
-            <div class="card-body m-1">
-              <h3 class="card-title">Fuga</h3>
-              <p class="card-text">Es un videojuego 2d donde el extraterrestre debe pasar obstaculos por la via lactea para volver a su planeta. <br> 
-                <br> Esta construido con: <br>
-                Javascript
-                <i class="fab fa-js-square"></i>
-                <br>
-               Photoshop
-               <i class="fas fa-paint-brush"></i>
-          
-        
-              </p>
-              <a  href="https://colixx.github.io/cine/in" aria-pressed="true">Jugá</a>
-              
-              
-
-
-            </div>
-
-          </div>
-        -->
-     
-
+         
 
          <div class="card-deck  ml-3 mr-3 mt-1">
             <div class="card cardt2 ">
-              <img src="img/color y forma.png" class="card-img-top mt-2" alt="...">
+              <img src="img/color y forma.png" class="card-img-top img-fluid mt-2" alt="...">
               <div class="card-body cardt m-2 ">
                 <h3 class=" ml-2 ">Color y forma</h3>
-                <p class="card-text ml-2">Es un documental que realice con Krysa Audiovisuales. Participó del festival FICU Lanterna en Mexico <a  href="https://www.youtube.com/watch?v=tjd1J-Tmrx8" class=" "  aria-pressed="true">Miralo</a> </p>
+                <p class="card-text ml-2">Es un documental que realice con Krysa Audiovisuales. Participó del festival FICU Lanterna en Mexico <a  href="https://www.youtube.com/watch?v=Tt0Z5FCB8po&feature=youtu.be" class=" "  aria-pressed="true">Miralo</a> </p>
                 
               </div>
               
             </div>
             <div class="card cardt2">
-              <img src="img/espiral.png" class="card-img-top mt-2" alt="...">
+              <img src="img/espiral.png" class="card-img-top img-fluid mt-2" alt="...">
               <div class="card-body cardt m-2">
                 <h3 class="ml-2">Espiral</h3>
-                <p class="card-text ml-2">Es una página web para un emprendimiento de ropa. La construí con Css y Boostrap. <a  href="https://www.youtube.com/watch?v=tjd1J-Tmrx8" class=" " aria-pressed="true">Miralo</a></p>
+                <p class="card-text ml-2">Es una página web responsive para un emprendimiento de ropa. La construí con Css y Boostrap. <a  href="https://www.youtube.com/watch?v=tjd1J-Tmrx8" class=" " aria-pressed="true">Miralo</a></p>
                 
               </div>
               
             </div>
             <div class="card cardt2">
-              <img src="img/peña.png" class="card-img-top mt-2" alt="...">
+              <img src="img/peña.png" class="card-img-top img-fluid mt-2 " alt="...">
               <div class="card-body cardt m-2">
                 <h3 class="ml-2">Peña</h3>
                 <p class="card-text ml-2">Es una cobertura audiovisual de un festival folclorico que realice con Take Audiovisuales. <a  href="https://www.youtube.com/watch?v=tjd1J-Tmrx8" class=""  aria-pressed="true">Miralo</a></p>
@@ -442,7 +398,7 @@
     <!-- FIN SECCIÓN -->
 
     <!-- SECCIÓN 4 -->
-    <div class="">
+    <div class="q">
       <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4" >
         <div class="row">
           <div class="col-xs-12 "><h1>Contacto</h1></div>
