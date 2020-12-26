@@ -2,8 +2,10 @@ body{
 	color:#fff;
 	font-family: 'Patua One', cursive;
 	/*font-family: 'B612', sans-serif;*/
-	
 }
+	html, body{
+		overflow-x: hidden;
+	 }
 /*-------- MENU -------------*/
 .menu-1{
 	height: 60px;
@@ -15,6 +17,10 @@ body{
 	color:#ea5c5a;
 	font-weight: bolder;
 	background-color: white;
+}
+
+.botonmenu:hover{
+	color: black;
 }
 
 .slider-1, .slider-2, .slider-4{
@@ -66,6 +72,22 @@ body{
 	box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
 	border-radius: 5px;
 	border: white;
+	transition:all .4s;
+}
+.slider-1 .card2:hover{
+    transform: translateY(-10px);
+}
+.slider-1 .card2:nth-child(1){ transform: scale(1.0);}
+.slider-1 .card2:hover:nth-child(1){
+    transform: translateY(-10px) scale(1.0);
+}
+.slider-1 .card2 .h4{
+
+    transition: all .4s;
+}
+
+.slider-1 .card2:hover .h4{
+	transform: translateX(10px) scale(1.05);
 }
 
 .slider-1 h3{
@@ -97,7 +119,7 @@ body{
 	background-size:cover;
 	background-repeat: no-repeat;
 	border-radius: 10px;
-	
+	transition:all .4s;
 	text-align: center;
 	margin: auto;
 	width:12em;
@@ -105,8 +127,21 @@ body{
 	-webkit-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
-	
-	
+}
+
+.slider-2 .card2:hover{
+    transform: translateY(-10px);
+}
+.slider-2 .card2:nth-child(1){ transform: scale(1.0);}
+.slider-2 .card2:hover:nth-child(1){
+    transform: translateY(-10px) scale(1.0);
+}
+.slider-2 .card2 h3{
+    transition: all .4s;
+}
+
+.slider-2 .card2:hover h3{
+	transform: scale(1.05);
 }
 
 /*-------- proyectos--------*/
@@ -145,8 +180,35 @@ body{
 	background-repeat: no-repeat;
 	border-radius: 5px;
 	height: 20.5em;
-
+	transition:all .4s;
 }
+
+.slider-3 .card2:hover{
+    transform: translateY(-10px);
+}
+.slider-3 .card2:nth-child(1){ transform: scale(1.0);}
+.slider-3 .card2:hover:nth-child(1){
+    transform: translateY(-10px) scale(1.0);
+}
+.slider-3 .card2 img{
+
+    transition: all .4s;
+}
+
+.slider-3 .card2:hover img{
+	transform: scale(1.05);
+}
+.slider-3 .card2 h3{
+
+    transition: all .4s;
+}
+
+.slider-3 .card2:hover h3{
+	transform: scale(1.05);
+}
+
+
+
 
 .slider-3  .cardt{
 	color: black;
@@ -160,6 +222,7 @@ body{
 	-moz-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
 	background-color:rgba(255, 255, 255, 0.561);
+	transition:all .4s;
 }
 
 .slider-3 img{
@@ -169,14 +232,34 @@ body{
 .slider-3 a {
 	color: #ea5c5a ;
 }
+.slider-3 .cardt2:hover{
+    transform: translateY(-10px);
+}
+.slider-3 .cardt2:nth-child(1){ transform: scale(1.0);}
+.slider-3 .cardt2:hover:nth-child(1){
+    transform: translateY(-10px) scale(1.0);
+}
+.slider-3 .cardt2 img{
+    transition: all .4s;
+}
 
+.slider-3 .cardt2:hover img{
+	transform: scale(1.05);
+}
+.slider-3 .cardt2 h3{
+    transition: all .4s;
+}
+
+.slider-3 .cardt2:hover h3{
+	transform: translateX(10px) scale(1.05);
+}
 
 
 /*-------contacto-------------*/
 
 
 .slider-4{
-	background:white;
+	background:white
 }
 .slider-4 h1{
 	color:#ea5c5a;
@@ -188,12 +271,50 @@ body{
 	color: rgb(47, 240, 143);
 	text-align: center;
 	font-size: 80px;
+	text-shadow: rgba(233, 231, 88, 0.746) 0.05em 0.01em 0.01em;
 }
+
+button{
+	width: 150px;
+	height: 100px;
+	cursor: pointer;
+	border: none;
+	position: relative;
+	color: white;
+	z-index: 0;
+	border: 2px solid #ea5c5a;
+	border-radius: 10px;
+	background:#ffffff;
+	overflow: hidden;
+	-webkit-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
+}
+
+button:hover::before{
+	top: 0px;
+	border-radius: 0;
+}
+
+button::before{
+	content: '';
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ea5c5a;
+	border-radius: 50% 50% 0% 0;
+	z-index: -1;
+	transition: all 0.5s;
+}
+
 
 .slider-4 .fa-envelope{
 	color: rgb(70, 66, 66);
 	text-align: center;
 	font-size: 80px;
+	text-shadow: rgba(233, 231, 88, 0.746) 0.05em 0.01em 0.01em;
 }
 
 
@@ -318,4 +439,8 @@ body{
 		border-radius: 20px;
 	}
 	
+
+	button{
+		margin-top: 10px;
+	}
 }
