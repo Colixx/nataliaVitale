@@ -40,15 +40,15 @@ body{
 	background-image: url("fondo.png");
 	background-size:cover;
 	background-repeat: no-repeat;
-	
 }
 
 .slider-1 img{
 	display:block;
 	margin:auto;
 	width:10em;
-	
+	transition:all .4s;
 }
+
 
 .slider-1 h1{
 	color:#ea5c5a;
@@ -57,11 +57,11 @@ body{
 }
 
 .slider-1 .card2{
+	border-radius: 20px;
 	color: black;
 	background-image: url("fondoproy.png");
 	background-size:cover;
 	background-repeat: no-repeat;
-	border-radius: 10px;
 	text-align: left;
 	margin:auto;
 	width:12em;
@@ -70,7 +70,6 @@ body{
 	-webkit-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
-	border-radius: 5px;
 	border: white;
 	transition:all .4s;
 }
@@ -118,7 +117,7 @@ body{
 	background-image: url("fondo card.png");
 	background-size:cover;
 	background-repeat: no-repeat;
-	border-radius: 10px;
+	border-radius: 20px;
 	transition:all .4s;
 	text-align: center;
 	margin: auto;
@@ -165,9 +164,13 @@ body{
 
 .slider-3 img{
 	border-radius: 10px;
-	
 }
 
+.slider-3 a:hover{
+	color: #000103;
+	text-decoration: none;
+
+}
 
 .slider-3 .card2{
 	color: #000103;
@@ -178,7 +181,7 @@ body{
 	background-image: url("fondoproy.png");
 	background-size:cover;
 	background-repeat: no-repeat;
-	border-radius: 5px;
+	border-radius: 20px;
 	height: 20.5em;
 	transition:all .4s;
 }
@@ -207,12 +210,42 @@ body{
 	transform: scale(1.05);
 }
 
+.slider-3 .sub-image{
+    display: flex;
+	justify-content: left;
+}
+
+.sub-image img{
+    width: 40px;
+    height: 45px;
+	margin-left: 25px;
+	margin-top: 0px;
+    padding: 3px;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 1.5px solid #ffffffab;
+	
+	box-shadow:
+    -10px -10px 10px rgba(230, 244, 244, 0.5),
+    5px 5px 5px rgba(70, 70, 70, 0.12);
+}
+
+#pruebo{
+	margin-top: 55px;
+}
+
+#chile{
+	margin-top: 60px;
+}
+
+#fuga{
+	margin-top: 10px;
+}
 
 
 
 .slider-3  .cardt{
 	color: black;
-	
 	text-align: left;
 		
 }
@@ -223,6 +256,8 @@ body{
 	box-shadow: 10px 10px 31px -20px rgba(0,0,0,0.75);
 	background-color:rgba(255, 255, 255, 0.561);
 	transition:all .4s;
+	border-radius: 20px;
+
 }
 
 .slider-3 img{
@@ -380,9 +415,7 @@ button::before{
 	background-size:cover;
 	background-repeat: no-repeat;
 	padding-left: 5vh;
-	
-	
-	
+		
 	}
 
 	#acerca{

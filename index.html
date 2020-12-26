@@ -21,8 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/ebd2c7db6a.js" crossorigin="anonymous"></script>
- 
+  <script src="https://kit.fontawesome.com/ebd2c7db6a.js" crossorigin="anonymous"
     <!-- Scroll -->
     <script src="js/smooth-scroll.min.js"></script>
     <script>
@@ -253,23 +252,29 @@
         <div class="row">
           <div class="col-xs-12 mb-3"><h1>Proyectos</h1></div>
           
-          <div class=" col-xs-12 col-lg-6">
+          <div class=" col-xs-12 cine col-lg-6">
 
             <div class=" card2 ml-3" id="cine" >
               <div class="row g-0">
                 <div class="col-md-4 col-xs-10">
-                  <img src="img/cine.png" class="m-2 img-fluid">
+                  <img src="img/cine.png" id="remote1" class="m-2 img-fluid">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
                     <h3 class="card-title m-2">Cine.red - Plataforma web</h3>
-                    <p class="card-text m-2">Es un puente entre cine realizado por estudiantes con les espectadores y con la industria. Esta en contrucción pero ya cuenta con un index, diferentes secciones y una pagina para reproducir la pelicula.
+                    <p class="card-text ml-2 mb-1">Es un puente entre cine realizado por estudiantes con les espectadores y con la industria. Esta en contrucción pero ya cuenta con un index, diferentes secciones y una pagina para reproducir la pelicula.
                       <br> Esta construida con: <br>
-                      Css <i class="fab fa-css3-alt"></i> <br> Boostrap <i class="fab fa-bootstrap"></i> <br> Javascript
-                      <i class="fab fa-js-square"></i>
+                      <i class="fab fa-css3-alt"></i> Css, <i class="fab fa-bootstrap"></i>    Boostrap y <i class="fab fa-js-square"></i>  Javascript
+                      
                       <br><a  href="https://colixx.github.io/cine/index.html"  aria-pressed="true">Visitala</a>
-              
-                </p>
+                      <div class="sub-image">
+                        <a><img  onclick="chanfge(this)" src="img/cine.png"></a>
+                        <a><img onclick="chanfge(this)" src="img/cine1.png"></a>
+                        <a><img onclick="chanfge(this)" src="img/cine2.png"></a>
+                        <a><img onclick="chanfge(this)" src="img/cine3.png"></a>
+                    </div>
+                    </p>
+                    
                     
                   </div>
                 </div>
@@ -279,18 +284,24 @@
           </div>
 
 
-          <div class=" col-xs-12 col-lg-6">
+          <div class=" col-xs-12  col-lg-6">
 
             <div class=" card2 mr-3 " id="anahata">
               <div class="row g-0">
                 <div class="col-md-4 col-xs-10">
-                  <img src="img/anaha2.png" class="m-2 img-fluid">
+                  <img src="img/anaha2.png" id="ana" class="m-2 img-fluid">
                 </div>
                 <div class="col-md-8 ">
                   <div class="card-body">
                     <h3 class="card-title m-2">Anahata - Videoclip</h3>
                     <p class="card-text m-2">Es un videoclip que realice con Zafari Producciones.
                       Ganador de Student Video en Buenos Aires Music Video Festival 2020. <br>  <a  href="https://www.youtube.com/watch?v=tjd1J-Tmrx8" aria-pressed="true">Miralo</a>
+                      <div class="sub-image">
+                        <a><img id="pruebo" onclick="change(this)" src="img/anaha2.png"></a>
+                        <a><img id="pruebo" onclick="change(this)" src="img/anaha.png"></a>
+                        <a><img id="pruebo" onclick="change(this)" src="img/anaha1.png"></a>
+                        <a><img id="pruebo" onclick="change(this)" src="img/anaha3.png"></a>
+                      </div>
                 </p>
                     
                   </div>
@@ -306,14 +317,20 @@
             <div class="card2 mt-1 ml-3" id="latido" >
               <div class="row g-0">
                 <div class="col-md-4 col-xs-10">
-                  <img src="img/chile.png" class="m-2 img-fluid">
+                  <img src="img/chile.png" id="chile" class="m-2 img-fluid">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
                     <h3 class="card-title m-2">Latido - Videoclip</h3>
                     <p class="card-text m-2">Es un videoclip que realice con Take Audiovisuales.
                       Experimentamos en montaje con efectos glichts en Premiere y en After <br> <a  href="https://www.youtube.com/watch?v=M3zurtBia3k" aria-pressed="true">Miralo</a>
-                </p>
+                      <div class="sub-image">
+                        <a><img id="chile" onclick="changef(this)" src="img/chile.png"></a>
+                        <a><img id="chile" onclick="changef(this)" src="img/chile1.png"></a>
+                        <a><img id="chile" onclick="changef(this)" src="img/chile2.png"></a>
+                        <a><img id="chile" onclick="changef(this)" src="img/chile3.png"></a>
+                      </div>
+                    </p>
                     
                   </div>
                 </div>
@@ -322,28 +339,29 @@
 
           </div>
 
-
-
-          
+         
           <div class=" col-xs-12 col-lg-6">
 
-            <div class=" card2 mt-1 mr-3" id="fuga" >
+            <div class=" card2 mt-1 mr-3"  >
               <div class="row g-0">
                 <div class="col-md-4 col-xs-10">
-                  <img src="img/fuga.png" class="m-2 img-fluid">
+                  <img src="img/fuga.png" id="fuga" class="m-2 img-fluid">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
                     <h3 class="card-title m-2">Fuga - videjuego</h3>
                     <p class="card-text m-2">Es un videojuego 2d donde el extraterrestre debe pasar obstaculos por la via lactea para volver a su planeta. <br> 
                       <br> Esta construido con: <br>
-                      Javascript
-                      <i class="fab fa-js-square"></i>
-                      <br>
-                     Photoshop
-                     <i class="fas fa-paint-brush"></i> <br>
+                      <i class="fab fa-js-square"></i> Javascript y  <i class="fas fa-paint-brush"></i>  Photoshop
+                    
+                     <br> 
                      <a  href="https://colixx.github.io/fuga/" aria-pressed="true">Jugá</a>
-              
+                     <div class="sub-image">
+                      <a><img id="fuga" onclick="changes(this)" src="img/fuga.png"></a>
+                      <a><img id="fuga" onclick="changes(this)" src="img/fuga1.png"></a>
+                      <a><img id="fuga" onclick="changes(this)" src="img/fuga2.png"></a>
+                      <a><img id="fuga" onclick="changes(this)" src="img/fuga3.png"></a>
+                    </div>
                     </p>
 
         
@@ -376,7 +394,7 @@
               <img src="img/espiral.png" class="card-img-top img-fluid mt-2" alt="...">
               <div class="card-body cardt m-2">
                 <h3 class="ml-2">Espiral</h3>
-                <p class="card-text ml-2">Es una página web responsive para un emprendimiento de ropa. La construí con Css y Boostrap. <a  href="https://colixx.github.io/espirals" class=" " aria-pressed="true">Miralo</a></p>
+                <p class="card-text ml-2">Es una página web responsive para un emprendimiento de ropa. La construí con Css y Boostrap. <a  href="https://colixx.github.io/espirals" class=" " aria-pressed="true">Visitala</a></p>
                 
               </div>
               
@@ -423,7 +441,7 @@
     <!-- FIN FOOTER -->
 
     
-
+    <script src="main.js"></script>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
