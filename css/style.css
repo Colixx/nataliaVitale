@@ -504,20 +504,40 @@ button::before{
 		background-image: url("fondoproyr.png");
 		background-size:cover;
 		background-repeat: repeat;
+		font-size: 2vh;
+	}
+	
+	#remote1{
+		height: 27vh;
 	}
 
 	#cine{
-		height: 115vh;
+		height: 85vh;
 	}
+
 	#anahata{
-		height: 99vh;
+		height: 73vh;
 		margin-bottom: 2px;
 	}
-	#latido{
-		height: 97vh;
+
+	#ana{
+		height: 27vh;
 	}
+
+	#latido{
+		height: 73vh;
+	}
+
+	#chile{
+		height: 27vh;
+	}
+
 	#fuga{
-		height: 111vh;
+		height: 82vh;
+	}
+
+	#fug{
+		height: 27vh;
 	}
 
 	#anahata .sub-image img{

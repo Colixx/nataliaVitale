@@ -12,7 +12,7 @@ function changef(image){
     chile.src=image.src;
 }
 
-var fuga = document.getElementById("fuga");
+var fuga = document.getElementById("fug");
 function changes(image){
     fuga.src=image.src;
 }
